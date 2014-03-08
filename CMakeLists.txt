@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(http-parser C)
+
 
 set(HTTP_PARSER_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR} CACHE INTERNAL "Http parser include directories")
 
