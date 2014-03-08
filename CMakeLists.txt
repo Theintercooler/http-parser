@@ -8,7 +8,5 @@ set(HTTP_PARSER_SOURCES
 set(HTTP_PARSER_LIBRARY http-parser CACHE INTERNAL "Http parser libary")
 set(HTTP_PARSER_LIBRARIES ${HTTP_PARSER_LIBRARY} CACHE INTERNAL "Http parser libaries")
 
-tig_add_definitions_for(${HTTP_PARSER_LIBRARY})
-
 add_library(${HTTP_PARSER_LIBRARY} STATIC
     ${HTTP_PARSER_SOURCES})
